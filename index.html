@@ -1,19 +1,40 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <style>
+        .rq{
+            color: red;
+        }
+    </style>
 <meta charset="utf-8">
-<title>JavaScript form validation - checking non-empty</title>
+<title>Task3</title>
 <link rel='stylesheet' href='form-style.css' type='text/css' />
 </head>
 <body>
 <div class="mail">
-<h2>Input your Name and Submit</h2>
+<h2>Input the values</h2>
 <form name="form1" action="#" onsubmit="required()">
-<ul>
-<li><input type='text' name ='text1'/></li>
-<li class="rq">*Required Field</li>
-<li><input type="submit" name="submit" value="Submit" /></li>
-</ul>
+<p>enter name:</p>
+<input type='text' name ='text1'/>
+<class="rq">*Required Field</class>
+<br>
+<form name="form1" action="#" onsubmit="required()">
+    <p>enter email:</p>
+    <input type='text' name ='text1'/>
+    <class="rq">*Required Field</class>
+    <br>
+<form name="form1" action="#" onsubmit="required()">
+    <p>Website:</p>
+    <input type='text' name ='text1'/>
+    <class="rq">*Required Field</class>
+    <br>
+<form name="form1" action="#" onsubmit="required()">
+    <p>Message:</p>
+    <input type='text' name ='text1'/>
+    <class="rq">*Required Field</class>
+    <br>
+    
+<input type="submit" name="submit" value="Submit" />
 </form>
 </div>
 <script src="non-empty.js"></script>
